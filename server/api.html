@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.hdr  ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #222222;
+		}
+
+		.hdr  li {
+		  float: left;
+		}
+
+		.hdr li a {
+		  display: block;
+		  color: #6A6A6A;
+		  text-align: center;
+		  padding: 18px 20px;
+		  text-decoration: none;
+		}
+
+		.hdr   li a:hover {
+		  color: #FFFFFF;
+		}
+
+		.set{
+			background-color: #FFFFFF;
+
+		}
+
+		.hdr .logo {
+			margin-left: 120px;
+			margin-right: 20px;
+			color: #6A6A6A;
+		}
+
+		.ping{
+		    color: #3d3d3d;
+			margin-left: 58%;
+			margin-right: 2%;
+			font-size: 25px;
+		}
+
+		.c1 {
+			padding: 20px;
+			float: right;
+		}
+
+		.r1{
+		  color: #636b00;
+		}
+
+		.user{
+		    color: #3d3d3d;
+			margin-right: : 58%;
+			margin-left: : 2%;
+			font-size: 25px;;
+		}
+
+		.c2 {
+			padding: 20px;
+			float: left;			
+		}
+
+		.r2 {
+		  color: #636b00;	
+		  margin-left: 20px;		
+		}
+
+		
+/*
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #3d3d3d;
+    background-color: #ededed;
+    border-radius: 5px;
+    border: 3px solid #cecece;
+*/
+			
+
+	 </style>
+	<meta charset="utf-8" />
+	<title>API Start</title>
+</head>
+<body>	
+<header class="hdr">
+	<ul>
+	  <li><a class="logo">GIT-PHANTOM [ API ]</a></li>
+	  <li><a class="home" href="/">Home</a></li>
+	  <li><a class="set start" href="/start">Start</a></li>
+	  <li style="float: right;"><a class="docs" href="http://github.com/Git-Phantom/">Documentation</a></li>
+	</ul>
+</header>
+<div class="ping">
+	<dir class="c1">
+		<h2> Connections </h2>
+		<hr>
+		<div class="r1">
+			<p style="color: #3d3d3d; ">Bloble.io : </p>
+			<p>' + shell.exec('sh shell/bloble.sh') + '</p>
+			<hr>
+			<p style="color: #3d3d3d; ">Host : </p>
+			<p>' + shell.exec('sh shell/api.shell.sh') + '</p>
+		</div><!--/r1-->
+	</dir><!--/c1-->
+</div><!--/ping-->
+<dir class="user">
+	<div class="c2">
+		<h2>User Info</h2>
+		<hr>
+	<div class="r2">
+		<ul>
+			<li>Name : </li>
+			<hr>
+			<li>Power : </li>
+			<hr>
+			<li>Power Spent : </li>
+			<hr>
+			<li>Power Gain : </li>
+			<hr>
+			<li>Game Time : </li>
+		</ul>
+	</div><!--/r2-->
+	</div><!--/c2-->
+</dir><!--/user-->
+
+</body>
+</html>
