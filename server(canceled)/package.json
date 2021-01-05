@@ -1,0 +1,27 @@
+{
+  "name": "Bloble-Ping",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ping": "^0.4.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Git-Phantom/Bloble-Ping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Git-Phantom/Bloble-Ping/issues",
+    "discord" : "Phantom#6955"
+},
+  "homepage": "https://github.com/Git-Phantom/Bloble-Ping#readme"
+}
