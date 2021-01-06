@@ -37,11 +37,11 @@ node ping.js
 To enter the interface version, type the commands below.
 
 ```
-cd server
+cd server\(canceled\)/
 npm i 
 node server.js
 ```
 
 ## Discord
 
-In case you didn't understand how it works, enter my [new discord server](https://hdDrK7dPkd)
+In case you didn't understand how it works, enter my [new discord server](https://discord.gg/hdDrK7dPkd)
