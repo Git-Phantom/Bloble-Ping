@@ -37,7 +37,7 @@ node ping.js
 To enter the interface version, type the commands below.
 
 ```
-cd server\(canceled\)/
+cd server
 npm i 
 node server.js
 ```
