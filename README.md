@@ -22,7 +22,6 @@ First you have to download the tools.
 
    * ``sudo apt-get install nodejs git -y ``
    
- 
 After you have installed git and nodejs, open the command prompt or terminal and type the commands below
 
 ```
