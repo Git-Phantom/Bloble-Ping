@@ -3,7 +3,7 @@ var ping = require('ping')
 var hosts = ['127.0.0.1', '34.208.242.121', '44.241.80.149']
 hosts.forEach(function(host){
     ping.sys.probe(host, function(isAlive){
-        var msg = isAlive ? '\x1b[32m[PHANTOM] ' + host + ' is On\x1b[0m' : '\x1b[31m[PHANTOM] ' + host + ' is Off\x1b[0m';
+        var msg = isAlive ? '\x1b[32m[PHANTOM] ' + host + ' is On\x1b[0m' : '\x1b[31m[PHANTOM] ' + host + ' is Off\x1b[0m'
         console.log('', msg)
     })
 })
