@@ -1,0 +1,4 @@
+hostW authtoken 1nhfN7MtU97Eu8whD6lcIVdtJrk_3gJTMXiKH65xGQ8ak57yn
+
+hostW http 8080
+
